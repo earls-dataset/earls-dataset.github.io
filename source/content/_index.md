@@ -1,53 +1,8 @@
-<body>
-  <center style="top: 0;
-                 max-width: 100vw;
-                 position: relative;
-                 left: 50%;
-                 right: 50%;
-                 width: 100vw;
-                 height: 100vh;
-                 margin-top:-22px; 
-                 margin-left: -50vw;
-                 margin-right: -50vw;
-                 padding-left: 0; padding-right: 0;
-                 ">
-    <br>
-    <div class="flex-container">
-      <div class="row"> 
-        <p style="margin-bottom:-150px;"></p>
-        <div class="flex-item">
-            <a href="/"><img src="/header.png" width="300" class="center"></a>
-        </div>
-        <p style="margin-bottom:-30px;"></p>
-        <div class="flex-item">       
-            <h4>
-              <a href="#project">project</a> ♛
-              <a href="#data">data</a> ♛
-              <a href="#log">updates</a> 
-            </h4>
-        </div>
-      </div>
-    </div>
-  </center>
-</body>
-<body>
-  <center style="top: 0; 
-                 position: relative;
-                 left: 50%;
-                 right: 50%;
-                 max-width: 50vw;
-                 width: 200vw;
-                 margin-top:-1px; 
-                 margin-left: -50vw;
-                 margin-right: -50vw;
-                 padding-left: 25vw;
-                 padding-right: 25vw;">
-    <div class="main" id="section1"></div>
-  </center>
-</body>
-
-
-
+---
+author: Daniel Klotz
+title: Hello
+---
+{{< rawhtml >}}
 <div id="project"
      style="background-color: #fafafa;
         margin-top:-1px;
@@ -75,9 +30,9 @@
     <b>Email: </b> <a href = "mailto: daniel.klotz@ufz.de">daniel.klotz@ufz.de</a>
     <br><br>
 </div>
-  
+{{< /rawhtml >}}
 
-  
+{{< rawhtml >}}  
 <div id="data"
     style= "background-color: #fafafa;
             margin-top:-1px;
@@ -97,9 +52,9 @@
     </li>
 <br>
 </div>
-  
+{{< /rawhtml >}}  
 
-  
+{{< rawhtml >}}  
 <div id="log"
     style= "background-color: #fafafa;
             margin-top:-1px;
@@ -118,70 +73,4 @@
     <li> (18/Aug/2024) Website website launched.</li>
 <br>
 </div>
-  
-
-
-
-
-<head>
-	<meta name="generator" content="Hugo 0.80.0" />
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Hello | EARLS</title>
-  <link rel="stylesheet" href='/css/style.css' />
-  <link rel="stylesheet" href='/css/fonts.css' />
-</head>
-
-<footer>
-  <center style="
-  margin-top:-0px;
-  margin-bottom:-100px;
-  top: 0;
-  position: relative;
-  left: 50%;
-  right: 50%;
-  max-width: 50vw;
-  width: 200vw;
-  margin-left: -50vw;
-  margin-right: -50vw;
-  padding-top: 1px;
-  padding-bottom: 10px;
-  padding-left: 22vw;
-  padding-right: 28vw;">
-
-    <br>
-    Well that's it.
-    <br>
-
-    
-    
-
-  </center>
-</footer>
-</body>
-
-</html>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script>
-  $(document).ready(function () {
-    
-    $("a").on('click', function (event) {
-      
-      if (this.hash !== "") {
-        
-        event.preventDefault();
-        
-        var hash = this.hash;
-        
-        
-        $('html, body').animate({
-          scrollTop: $(hash).offset().top
-        }, 800, function () {
-          
-          window.location.hash = hash;
-        });
-      } 
-    });
-  });
-</script>
+{{< /rawhtml >}} 
