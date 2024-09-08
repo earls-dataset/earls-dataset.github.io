@@ -48,7 +48,7 @@ title: Hello
             padding-right: 25vw;
             list-style: '     ♛    ';">
 <h2>The data</h2>
-    <li> EARLS V1 (<a href="">dataset</a>) (<a href="">model card</a>)
+    <li> EARLS V1 (<a href="">dataset</a>) (<a href="https://earls-dataset.github.io/model-cards/model-card-earls-lstm.html">model card</a>)
     </li>
 <br>
 </div>
@@ -73,4 +73,4 @@ title: Hello
     <li> (18/Aug/2024) Website website launched.</li>
 <br>
 </div>
-{{< /rawhtml >}} 
+{{< /rawhtml >}}
